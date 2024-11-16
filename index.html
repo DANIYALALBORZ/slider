@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="slider">
+
+        <!-- arrow progress -->
+        <div class="arrow-moves-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                <path
+                    d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+            </svg>
+        </div>
+
+        <div class="arrow-moves-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path
+                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+            </svg>
+        </div>
+        <!-- end of arrow progress -->
+
+        <!-- images -->
+        <div class="slider-imgs-container">
+            <figure class="slider-figure">
+                <img class="slider-img" src="./img/blackfriday.webp" alt="">
+            </figure>
+            <figure class="slider-figure">
+                <img class="slider-img" src="./img/charm.webp" alt="">
+            </figure>
+            <figure class="slider-figure">
+                <img class="slider-img" src="./img/206.webp" alt="">
+            </figure>
+            <figure class="slider-figure">
+                <img class="slider-img" src="./img/supermarket.gif" alt="">
+            </figure>
+        </div>
+        <!-- end of images -->
+
+        <!-- circle progress -->
+        <div class="circle-slider-progress">
+        </div>
+        <!-- end of circle progress -->
+
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
